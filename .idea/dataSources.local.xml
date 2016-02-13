@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="dataSourceStorageLocal">
-    <data-source name="Sqlite (Xerial) - slackbot.db" uuid="4a9cb41b-46b6-47f8-88af-71dd68d10ee0">
-      <secret-storage>master_key</secret-storage>
-      <auth-required>false</auth-required>
-    </data-source>
-  </component>
-</project>
