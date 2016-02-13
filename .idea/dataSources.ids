@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Sqlite (Xerial) - slackbot.db" uuid="4a9cb41b-46b6-47f8-88af-71dd68d10ee0">
+    <database-info product="SQLite" version="3.8.9" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="info" schema="" catalog="" type="TABLE">
+      <column name="name" sqlType="VARCHAR(100)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="val" sqlType="DATE" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="jokes" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="SMALLINT" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="joke" sqlType="VARCHAR(1000)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="used" sqlType="INT" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+    </table>
+  </data-source>
+</component>
