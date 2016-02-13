@@ -2,12 +2,15 @@
 
 var SlackBot = require('../lib/slackbot');
 
-var token = 'xoxb-21097528208-ho4EBu3GTIYutwVv9hSrO4mm';
+var token = process.env.BOT_API_KEY;
+var tokenWeather  = process.env.WEATHER_API_KEY;
+
 var name = 'slackbot';
 
 var slackbot = new SlackBot({
     token: token,
-    name: name
+    name: name,
+    tokenWeather: tokenWeather
 });
 
 slackbot.run();
